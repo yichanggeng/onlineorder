@@ -67,16 +67,23 @@
 	    <load-on-startup>1</load-on-startup>  
     </servlet>
     
-    
+    <!-- mvc拦截所有的.do结尾的请求，使用.htm会被springmvc当做html页面 -->
     <servlet-mapping>
         <servlet-name>mvc</servlet-name>
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
     
     
+    <servlet>
+    	<description>webjars js css jar包拦截</description>
+    	<servlet-name>webjarsServlet</servlet-name>
+    	<servlet-class>org.webjars.servlet.WebjarsServlet</servlet-class>
+    </servlet>
     
-    
-
+	<servlet-mapping>
+		<servlet-name>webjarsServlet</servlet-name>
+		<url-pattern>/webjars/*</url-pattern>
+	</servlet-mapping>
     
     
 

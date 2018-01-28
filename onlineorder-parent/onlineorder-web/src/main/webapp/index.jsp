@@ -1,7 +1,7 @@
 <!doctype html>
 <html ng-app="app">
 <head>
-	<script type="text/javascript" src="webjars/angularjs/1.6.2/angular.min.js"></script>
+	<script type="text/javascript" src="webjars/angularjs/1.6.5/angular.min.js"></script>
 
 </head>
 

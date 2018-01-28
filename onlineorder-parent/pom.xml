@@ -45,6 +45,12 @@
 			<name>阿里巴巴仓库</name>
 			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
 		</repository>
+		
+		<repository>
+			<id>center</id>
+			<name>中心仓库</name>
+			<url>http://search.maven.org</url>
+		</repository>
 	</repositories>
 	
 	
